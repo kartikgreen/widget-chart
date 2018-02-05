@@ -1,5 +1,5 @@
 {
-  "name": "my-component",
+  "name": "sample-component",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/mycomponent.js",
@@ -18,7 +18,8 @@
     "test.watch": "jest --watch --no-cache"
   },
   "dependencies": {
-    "@stencil/core": "0.2.3"
+    "@stencil/core": "next",
+    "flatpickr": "^4.2.4"
   },
   "devDependencies": {
     "@stencil/dev-server": "latest",
